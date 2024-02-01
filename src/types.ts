@@ -1,4 +1,4 @@
-import { awscdk } from 'projen';
+import {awscdk} from 'projen'
 
 export interface AwsCdkTemplateTypeScriptAppOptions extends awscdk.AwsCdkTypeScriptAppOptions {
   /**
