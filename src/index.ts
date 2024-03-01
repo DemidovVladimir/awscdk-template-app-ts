@@ -34,7 +34,7 @@ export class AwsCdkTemplateTypeScriptApp extends awscdk.AwsCdkTypeScriptApp {
     this.workflowNodeVersion = options.workflowNodeVersion
     this.deployOptions = options.deployOptions ?? {environments: []}
     this.codeArtifactOptions = options.codeArtifactOptions
-    this.addDevDeps('awscdk-template-app-ts')
+    this.addDevDeps('q-awscdk-template-app-ts')
 
     if (!deployable)
       this.logger.warn('The project is explicitly set to not release, make sure this is desired setting')
