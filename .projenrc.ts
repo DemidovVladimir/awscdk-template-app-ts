@@ -7,7 +7,7 @@ const project = new cdk.JsiiProject({
   author: 'Vladimir Demidov',
   authorAddress: 'uncojet@gmail.com',
   defaultReleaseBranch: 'main',
-  name: 'awscdk-template-app-ts',
+  name: 'migawscdk-template-app-ts',
   description: 'A projen project for Typescript AWS CDK App',
   jestOptions: {
     updateSnapshot: UpdateSnapshot.ALWAYS,
